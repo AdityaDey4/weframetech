@@ -1,7 +1,7 @@
 import React from 'react'
-import Heading from './Heading'
-import SearchBar from './SearchBar'
-import DocumentTable from './DocumentTable'
+import Heading from './secondPageComponent/Heading'
+import SearchBar from './secondPageComponent/SearchBar'
+import DocumentTable from './secondPageComponent/DocumentTable'
 
 const SecondPage = () => {
   return (
