@@ -5,10 +5,12 @@ import DocumentTable from './secondPageComponent/DocumentTable'
 
 const SecondPage = () => {
   return (
-    <div className='m-7 border-2 rounded-2xl'>
+    <div className="my-7 border-2 rounded-2xl flex flex-col">
       <Heading />
       <SearchBar />
-      <DocumentTable />
+      <div className="overflow-x-auto">
+        <DocumentTable />
+      </div>
     </div>
   )
 }

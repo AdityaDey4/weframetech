@@ -3,7 +3,7 @@ import { CheckCircle, XCircle, Circle } from "lucide-react";
 
 const AccountProgress = () => {
   return (
-    <div className="flex flex-col p-6 border rounded-2xl shadow-sm bg-white w-96">
+    <div className="flex flex-col p-6 border rounded-2xl shadow-sm bg-white min-w-86">
       {/* Top Tier */}
       <div className="border-b pb-6 flex flex-col items-center">
         <span className="text-black text-lg">

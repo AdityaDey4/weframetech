@@ -3,7 +3,7 @@ import React from 'react'
 
 const Feedback = () => {
   return (
-    <div className="flex flex-col gap-6 bg-white w-96">
+    <div className="flex flex-col gap-6 bg-white min-w-86">
       {/* Key Insights & Feedback  */}
       <div className="p-6 border rounded-2xl flex flex-col gap-5 shadow-sm">
         <span className="text-black text-lg">Key Insights & Feedback</span>

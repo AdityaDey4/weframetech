@@ -5,7 +5,7 @@ import Feedback from './firstPageComponent/Feedback'
 
 const FirstPage = () => {
   return (
-    <div className='flex flex-wrap justify-around gap-10'>
+     <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-6">
       <AccountProgress />
       <Onboard />
       <Feedback />

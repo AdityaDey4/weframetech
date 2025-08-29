@@ -3,7 +3,7 @@ import { Circle } from "lucide-react";
 
 const Onboard = () => {
   return (
-    <div className="flex flex-col gap-6 bg-white w-96">
+    <div className="flex flex-col gap-6 bg-white min-w-86">
       {/* Franchisees Onboard  */}
       <div className="p-6 border rounded-2xl flex flex-col gap-3 shadow-sm">
         <span className="text-black text-lg">Total Franchisees Onboard</span>
